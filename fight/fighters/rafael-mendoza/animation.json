@@ -1,0 +1,335 @@
+{
+  "fighter": "Rafael Mendoza",
+  "id": "mendoza",
+  "groundAnchor": {
+    "x": 240,
+    "y": 465
+  },
+  "bodyHeight": 448,
+  "poses": {
+    "idle": {
+      "file": "rafael_mendoza_idle_01.png",
+      "duration": 6,
+      "loop": true,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "slip": {
+      "file": "rafael_mendoza_slip_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "guard": {
+      "file": "rafael_mendoza_guard_01.png",
+      "duration": 6,
+      "loop": true,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "duck": {
+      "file": "rafael_mendoza_duck_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "step_out": {
+      "file": "rafael_mendoza_step_out_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "hook": {
+      "file": "rafael_mendoza_hook_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "cross": {
+      "file": "rafael_mendoza_cross_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "upper": {
+      "file": "rafael_mendoza_upper_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "jab": {
+      "file": "rafael_mendoza_jab_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "step_in": {
+      "file": "rafael_mendoza_step_in_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "body": {
+      "file": "rafael_mendoza_body_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "down": {
+      "file": "rafael_mendoza_down_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    }
+  }
+}

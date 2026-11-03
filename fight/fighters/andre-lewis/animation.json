@@ -1,0 +1,335 @@
+{
+  "fighter": "Andre Lewis",
+  "id": "lewis",
+  "groundAnchor": {
+    "x": 240,
+    "y": 465
+  },
+  "bodyHeight": 448,
+  "poses": {
+    "upper": {
+      "file": "andre_lewis_upper_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "slip": {
+      "file": "andre_lewis_slip_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "step_out": {
+      "file": "andre_lewis_step_out_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "body": {
+      "file": "andre_lewis_body_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "cross": {
+      "file": "andre_lewis_cross_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "hook": {
+      "file": "andre_lewis_hook_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "guard": {
+      "file": "andre_lewis_guard_01.png",
+      "duration": 6,
+      "loop": true,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "step_in": {
+      "file": "andre_lewis_step_in_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "jab": {
+      "file": "andre_lewis_jab_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "idle": {
+      "file": "andre_lewis_idle_01.png",
+      "duration": 6,
+      "loop": true,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "down": {
+      "file": "andre_lewis_down_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "duck": {
+      "file": "andre_lewis_duck_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    }
+  }
+}

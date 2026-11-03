@@ -1,0 +1,335 @@
+{
+  "fighter": "Sean O'Rourke",
+  "id": "orourke",
+  "groundAnchor": {
+    "x": 240,
+    "y": 465
+  },
+  "bodyHeight": 448,
+  "poses": {
+    "hook": {
+      "file": "sean_orourke_hook_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "guard": {
+      "file": "sean_orourke_guard_01.png",
+      "duration": 6,
+      "loop": true,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "step_in": {
+      "file": "sean_orourke_step_in_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "duck": {
+      "file": "sean_orourke_duck_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "slip": {
+      "file": "sean_orourke_slip_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "jab": {
+      "file": "sean_orourke_jab_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "down": {
+      "file": "sean_orourke_down_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "step_out": {
+      "file": "sean_orourke_step_out_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "cross": {
+      "file": "sean_orourke_cross_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "idle": {
+      "file": "sean_orourke_idle_01.png",
+      "duration": 6,
+      "loop": true,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "body": {
+      "file": "sean_orourke_body_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    },
+    "upper": {
+      "file": "sean_orourke_upper_01.png",
+      "duration": 6,
+      "loop": false,
+      "groundAnchor": {
+        "x": 240,
+        "y": 465
+      },
+      "hurtbox": {
+        "x": 180,
+        "y": 30,
+        "w": 140,
+        "h": 420
+      },
+      "headHitbox": {
+        "x": 200,
+        "y": 24,
+        "w": 80,
+        "h": 90
+      },
+      "bodyHitbox": {
+        "x": 185,
+        "y": 120,
+        "w": 120,
+        "h": 190
+      }
+    }
+  }
+}
