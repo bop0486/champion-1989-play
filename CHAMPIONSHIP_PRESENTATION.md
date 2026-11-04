@@ -1,1 +1,0 @@
-Exhibition title bouts now mark the reigning champion with a crown beside the HUD name. When the bout ends, the winner becomes the displayed champion and wears a gold championship belt over the waistband. Draws retain the incumbent champion.
