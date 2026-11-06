@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Champion 1989 — Ring Test</title><style>body{background:#0a0c14;color:#f2f2f2;font:16px system-ui;margin:0;padding:18px}main{max-width:1050px;margin:auto}h1{font-size:22px}p{color:#aab5c7}select{padding:10px;background:#1d2634;color:white;border:1px solid #667;border-radius:5px;margin:5px}svg{width:100%;height:auto;background:#11131d;border:1px solid #404756;image-rendering:pixelated}a{color:#d4af5a}.note{font-size:13px}</style><main><h1>Champion 1989 — Ring Geometry Test</h1><p>Interactive 2.5D ring perspective and rope depth preview. This is a standalone test, not the game build or your final illustration art.</p><label>Ring <select id="style"><option value="classic">Classic Arcade</option><option value="champ">DSJ Championship</option><option value="dsj">DSJ 2.5D</option></select></label><label>Camera <select id="camera"><option value="front">Front</option><option value="back">Back</option><option value="left">Left</option><option value="right">Right</option><option value="aerial">Aerial</option></select></label><svg id="scene" viewBox="0 0 960 600" role="img" aria-label="Boxing ring preview"></svg><p class="note">For the final game, your approved ring illustrations must replace these temporary vector shapes and be split into depth-aware layers.</p><p><a href="./">Return to current game</a></p></main><script>
+const scene=document.querySelector('#scene'),style=document.querySelector('#style'),camera=document.querySelector('#camera');
+function render(){
+const s=style.value,c=camera.value,dsj=s!=='classic';
+const P=c==='aerial'?[[310,135],[700,135],[800,435],[190,435]]:c==='back'?[[290,195],[695,195],[870,445],[95,445]]:c==='left'?[[230,185],[680,220],[805,455],[115,410]]:c==='right'?[[340,220],[790,185],[845,410],[155,455]]:[[270,195],[690,195],[850,455],[110,455]];
+const point=(i)=>P[i].join(','),poly=P.map(p=>p.join(',')).join(' '),bottom=P.map(p=>[p[0],p[1]+52]),rope=['#e63c39','#f4f4f4','#1486e9'];
+const line=(a,b,y,color,width=8)=>'<line x1="'+a[0]+'" y1="'+(a[1]-y)+'" x2="'+b[0]+'" y2="'+(b[1]-y)+'" stroke="'+color+'" stroke-width="'+width+'"/>';
+let html='<rect width="960" height="600" fill="#101321"/><g fill="#242c42">';
+for(let i=0;i<18;i++)for(let j=0;j<6;j++)html+='<rect x="'+(i*58-20)+'" y="'+(j*33+40)+'" width="45" height="24" rx="6"/>';
+html+='</g><polygon points="'+[P[3],P[2],bottom[2],bottom[3]].map(p=>p.join(',')).join(' ')+'" fill="'+(dsj?'#121318':'#132a65')+'" stroke="#080c14" stroke-width="5"/><polygon points="'+poly+'" fill="'+(dsj?'#0964b8':'#158bd7')+'" stroke="#9bc6f2" stroke-width="6"/>';
+for(let i=0;i<4;i++)for(let n=0;n<3;n++)html+=line(P[i],P[(i+1)%4],38+n*30,rope[n],7);
+if(dsj){html+='<text x="480" y="335" fill="#e7bb56" font-size="56" font-family="Georgia" text-anchor="middle">◇ DSJ</text><text x="480" y="367" fill="#e7bb56" font-size="18" text-anchor="middle">DIAMOND SELECT JEWELRY</text><text x="480" y="495" fill="#d5b15c" font-size="26" text-anchor="middle">DSJ</text>'}
+else html+='<text x="480" y="360" fill="#174c98" font-size="38" font-weight="900" text-anchor="middle">CHAMPION 1989</text>';
+for(let i=0;i<4;i++)html+='<rect x="'+(P[i][0]-12)+'" y="'+(P[i][1]-125)+'" width="24" height="140" fill="'+(i%3===0?'#d73732':i%3===1?'#e6e8e8':'#1a5bd0')+'" stroke="#151827" stroke-width="5"/>';
+for(let n=0;n<3;n++)html+=line(P[3],P[2],38+n*30,rope[n],10);
+scene.innerHTML=html;
+}
+style.onchange=camera.onchange=render;render();
+</script></html>
