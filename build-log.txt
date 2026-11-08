@@ -1,7 +1,7 @@
 npm warn deprecated recharts@2.15.4: 1.x and 2.x branches are no longer active. Bump to Recharts v3 to receive latest features and bugfixes. See https://github.com/recharts/recharts/wiki/3.0-migration-guide
 npm warn deprecated eslint@9.39.5: This version is no longer supported. Please see https://eslint.org/version-support for other options.
 
-added 424 packages in 6s
+added 424 packages in 12s
 [36mvite v8.3.4 [32mbuilding client environment for production...[36m[39m
 transforming...
 ✓ 112 modules transformed.
@@ -9,12 +9,12 @@ rendering chunks...
 computing gzip size...
 dist-static/index.html                   0.90 kB │ gzip:   0.48 kB
 dist-static/assets/index-DPKJtrit.css   30.95 kB │ gzip:   8.51 kB
-dist-static/assets/index-cBkw3tTL.js   369.80 kB │ gzip: 119.55 kB
+dist-static/assets/index-C8aF_pmZ.js   369.80 kB │ gzip: 119.57 kB
 
-[32m✓ built in 4.24s[39m
-[33m[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 4.1s of this 4.2s build (98%).
+[32m✓ built in 7.57s[39m
+[33m[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 7.2s of this 7.6s build (95%).
 The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
-  - plugin vite:prepare-out-dir renderStart (94%, 4.0s, 1 call)
+  - plugin vite:prepare-out-dir renderStart (88%, 6.7s, 1 call)
 Additional callback time came from the callbacks below and from callbacks under 1s.
 1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
   - plugin @tailwindcss/vite:generate:build transform (2 calls)
